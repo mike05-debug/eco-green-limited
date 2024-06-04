@@ -8,7 +8,6 @@ const About = () => {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
       </Flex>
-
       <Text>This is the about page</Text>
     </Box>
   );
