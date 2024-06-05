@@ -27,6 +27,10 @@ const Header = () => {
       justify="space-between"
       bg="#fff"
       color="#000"
+      position="fixed"
+      top="0"
+      left="0"
+      zIndex="3"
     >
       <Heading>ECO-GREEN</Heading>{" "}
       <Flex
@@ -35,12 +39,12 @@ const Header = () => {
         gap="20"
         display={{ base: "none", md: "flex" }}
       >
-        <Link to="/" >Home</Link>
+        <Link to="/">Home</Link>
         <Link to="#about">About</Link>
         <Link to="#gallery">Gallery</Link>
         <Link to="#contact">Contact Us</Link>
       </Flex>
-      <Box display={{base:"block", md:"none"}}>
+      <Box display={{ base: "block", md: "none" }}>
         <Button ref={btnRef} colorScheme="teal" onClick={onOpen}>
           Open
         </Button>

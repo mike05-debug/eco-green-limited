@@ -4,9 +4,9 @@ import ProjectVideo from "./components/projectVideo";
 
 const Home = () => {
   return (
-    <Box>
-      <Header/>
-      <ProjectVideo/>
+    <Box w="100%">
+      <Header />
+      <ProjectVideo />
     </Box>
   );
 };
