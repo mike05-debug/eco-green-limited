@@ -17,19 +17,19 @@ const ProjectVideo = () => {
   };
 
   return (
-    <Box w="100%" m={0} p={0}>
+    <Box w="100%" m={0} p={0} bg="#fff">
       <Slider {...settings}>
         <Box>
-          <Image w="100%" src={img1} alt="Slide 1" />
+          <Image w="100%" h="100vh" src={img1} alt="Slide 1" />
         </Box>
         <Box>
-          <Image w="100%" src={img2} alt="Slide 2" />
+          <Image w="100%" h="100%" src={img2} alt="Slide 2" />
         </Box>
         <Box>
-          <Image w="100%" src={img3} alt="Slide 3" />
+          <Image w="100%" h="100%" src={img3} alt="Slide 3" />
         </Box>
         <Box>
-          <Image w="100%" src={img4} alt="Slide 4" />
+          <Image w="100%" h="100%" src={img4} alt="Slide 4" />
         </Box>
       </Slider>
     </Box>

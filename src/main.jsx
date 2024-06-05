@@ -7,7 +7,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ChakraProvider>
-      <Box w="100%" m={0} p={0}>
+      <Box w="100%" m={0} p={0} overflowX="hidden">
         <App />
       </Box>
     </ChakraProvider>
